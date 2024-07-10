@@ -15,7 +15,7 @@ public class BinarySearchAlgorithm {
            int end=arr.length-1 ;
            while (start<=end) {
                //int mid = (start+end)/2;
-//might be possible that (start + end) exceeds range of integer
+       //might be possible that (start + end) exceeds range of integer
            int mid = start + (end- start)/2;
                if (arr[mid] == target) {
                    return mid;
