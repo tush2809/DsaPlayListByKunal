@@ -8,6 +8,7 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
         System.out.println(new Date().toString());
+        System.out.println(new Date().getDate());
 
     }
 }
